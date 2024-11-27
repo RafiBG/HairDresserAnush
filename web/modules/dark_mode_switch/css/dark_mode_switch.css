@@ -1,0 +1,7 @@
+.dark-mode-switch-wrapper {
+  display: flex;
+}
+
+.dark-mode-switch-wrapper .custom-control-label {
+  padding-left: 10px;
+}

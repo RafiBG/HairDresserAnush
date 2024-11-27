@@ -1,0 +1,10 @@
+name: Darkmode
+type: module
+description: Integration of Darkmodejs library.
+core_version_requirement: ^9 || ^10 || ^11
+configure: darkmode.options_settings
+
+# Information added by Drupal.org packaging script on 2024-08-01
+version: '1.0.7'
+project: 'darkmode'
+datestamp: 1722499607

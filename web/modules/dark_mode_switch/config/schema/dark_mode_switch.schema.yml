@@ -1,0 +1,25 @@
+dark_mode_switch.settings:
+  type: config_object
+  label: 'Dark mode switch settings'
+  mapping:
+    dark_class:
+      type: string
+      label: 'Dark mode class'
+    parent_element:
+      type: string
+      label: 'Parent element'
+    dark_mode:
+      type: sequence
+      label: 'Dark mode theme timings'
+      sequence:
+        type: mapping
+        mapping:
+          start_time:
+            type: string
+            label: 'Start time'
+          end_time:
+            type: string
+            label: 'End time'
+    active_theme:
+      type: string
+      label: 'Dark mode active theme'

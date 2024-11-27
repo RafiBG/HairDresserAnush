@@ -1,0 +1,10 @@
+bottom: '64px'
+right: '32px'
+left: 'unset'
+time: '0.5s'
+mix_color: '#fff'
+background_color: '#fff'
+button_color_dark: '#100f2c'
+button_color_light: '#fff'
+save_in_cookies: FALSE
+auto_match_os_theme: TRUE

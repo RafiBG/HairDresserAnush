@@ -1,0 +1,7 @@
+darkmode.options_settings:
+  path: '/admin/config/darkmode'
+  defaults:
+    _form: '\Drupal\darkmode\Form\DarkmodeConfigurationForm'
+    _title: 'Darkmode Options Configuration'
+  requirements:
+    _permission: 'administer site configuration'

@@ -1,0 +1,13 @@
+name: 'Dark Mode Switch'
+type: module
+description: 'Create a switch block to turn the theme into a dark version.'
+core_version_requirement: ^8 || ^9 || ^10
+configure: dark_mode_switch.form
+dependencies:
+  - time_field:time_field
+
+
+# Information added by Drupal.org packaging script on 2023-09-20
+version: '8.x-2.0+8-dev'
+project: 'dark_mode_switch'
+datestamp: 1695245923

@@ -1,0 +1,6 @@
+darkmode.darkmode_settings:
+  title: Darkmode settings
+  description: 'Configure the Darkmode module.'
+  parent: system.admin_config_ui
+  route_name: darkmode.options_settings
+  weight: 10

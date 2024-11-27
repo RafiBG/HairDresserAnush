@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for darkmode module.
+ */
+
+/**
+ * Implements hook_help().
+ */
+function darkmode_help($path, $arg) {
+  switch ($path) {
+    case 'help.page.darkmode':
+      $output = '';
+      $output .= '<h3>' . t('About Darkmode') . '</h3>';
+      $output .= '<p>' . t('The Dark Mode module allows users to enable a dark color scheme for the website, making it easier on the eyes in low-light environments.') . '</p>';
+      $output .= '<p>' . t('This module provides a convenient toggle button for users to switch between dark and light modes.') . '</p>';
+      $output .= '<h3>' . t('Uses') . '</h3>';
+      $output .= '<p>' . t('To display the dark mode switcher needs to add the Darkmode Switcher block to the desired region in the Block Layout.') . '</p>';
+      return $output;
+  }
+}

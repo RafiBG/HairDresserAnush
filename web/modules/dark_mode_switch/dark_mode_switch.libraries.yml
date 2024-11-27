@@ -1,0 +1,9 @@
+dark_mode_switch:
+  js:
+    js/dark_mode_switch.js: { }
+  dependencies:
+    - core/once
+    - core/drupalSettings
+  css:
+    theme:
+      css/dark_mode_switch.css: { }
